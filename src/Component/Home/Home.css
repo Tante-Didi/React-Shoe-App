@@ -1,29 +1,27 @@
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 78vh;
 
-html {
-  font-size: 18px;
-}
-
-body {
-  font-weight: 400;
-  line-height: 1.6;
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('/public/nav-back-ground.JPG');
+  opacity: 0.8;
   background-image: url('/public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlNF9zbm93aW5nX2Jva2VoX2VmZmVjdF9iYWNrZ3JvdW5kX19pbl90aGVfc3R5bGVfb18zODBmMmE4Yi0xZjgzLTQ2YjMtOTM3ZS01YmZlYzY2ZGE1N2EucG5n.webp');
   background-repeat: no-repeat; /* This ensures the background image does not repeat */
   background-size: cover;
-  opacity: 0.92;
+
+  font-family: 'Indie Flower';
+  font-weight: 700;
 }
 
-ul {
-  list-style-type: none;
+h1 {
+  font-size: 6rem;
 }
-
-a {
-  text-decoration: none;
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2rem;
 }

@@ -1,0 +1,30 @@
+.layout-links-container {
+  color: #b5b6b8;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin-left: 20px;
+  /* border: solid orange 5px; */
+  font-family: 'Indie Flower';
+  font-weight: 700;
+  margin-left: 10rem;
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  border-radius: 30px;
+}
+
+.layout-links-container:hover {
+  transform: scale(1.1); /* This enlarges the button */
+  background-color: #3a2d2d00; /* This makes the button brighter */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* This adds a shadow to the button */
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  border-radius: 30px;
+  color: #e8e9ec;
+}
+
+/* Optional: Additional style to ensure the button changes cursor to pointer */
+.layout-links-container:focus,
+.layout-links-container:active {
+  outline: none; /* Remove the default outline on focus/active */
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+nav {
+  width: 100%;
+  height: 15vh;
+  /* border: solid green 5px; */
+  background-image: url('/public/logothree.JPG');
+  background-repeat: no-repeat; /* This ensures the background image does not repeat */
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  font-size: medium;
+  background-image: url('/public/logothree.JPG');
+  background-repeat: no-repeat; /* This ensures the background image does not repeat */
+  background-size: cover;
+
+  font-family: 'Indie Flower';
+  font-weight: 700;
+  height: 7vh;
+  opacity: 0.99;
+  color: #b5b6b8;
+}
