@@ -1,16 +1,12 @@
-// import React from 'react'
+import React from 'react'
+import './Footer.css'
 
-// import './Footer.css'
+const Footer = () => {
+  return (
+    <div className="footer-container">
+      &copy; All rights reserved to Daniela Armoni Alon
+    </div>
+  )
+}
 
-// const Footer = () => {
-//   return (
-//     <div className="footer-container">
-//       {' '}
-//       <div className="copyrights">
-//         <p> &copy; All rights reserved to Daniela-Armoni-Alon.</p>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Footer
+export default Footer

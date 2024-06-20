@@ -1,23 +1,8 @@
-/* .footer-container {
+.footer-container {
   width: 100%;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
-.copyrights {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
-  width: 10%;
-  font-size: 1.2rem;
-  height: 100%;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-.Terms-of-Service {
-  display: flex;
-  flex-direction: row;
-} */
